@@ -3,16 +3,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
-</head>
-<body>
-    <header>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- .....google font..... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Manrope:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+
+    }
+</style>
+</head>
+<body class="font-family">
+    <header>
+        <!-- ...banner section -->
+        <section class="max-w-screen-xl mx-auto">
+            <div class="hero min-h-screen" style="background-image: url('image/banner1.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5">We supply highly quality organic products</p>
+                    <button class="btn btn-error">Shope Now</button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+        </section>
     </header>
     <main>
+        <!-- deal of the day -->
+        <section class="max-w-screen-xl mx-auto">
+            <div class="flex justify- mt-8">
+                <div>
+                    <h2 class="w-96 text-5xl font-bold">Deal of the day</h2>
+                    <p class="w-3/5 py-10 text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+               <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="w-14 font-bold">29</h2>
+                    <p class=" text-sm pt-3 font-medium">Day</p>
+                 </div>
+                <div>
+                    <h2 class="w-14 font-bold">15</h2>
+                    <p class=" text-sm pt-3 font-medium">Hours</p>
+                 </div>
+                <div>
+                    <h2 class="w-14 font-bold">25</h2>
+                    <p class="text-sm pt-3 font-medium">Minutes</p>
+                 </div>
+                <div>
+                    <h2 class="w-14 font-bold">08</h2>
+                    <p class=" text-sm pt-3 font-medium">Second</p>
+                 </div>
+               </div>
+            </div>
+            <!-- ....card.. -->
+            <div>
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure><img src="image/fruit1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">12.90$ - 18.85$</h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                          <p>Apple</p>
+                          <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <p>Details</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
-        
+
     </footer>
     
 </body>
